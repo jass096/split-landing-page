@@ -1,0 +1,9 @@
+# On Windows:
+echo. > .nojekyll
+
+# On macOS/Linux:
+touch .nojekyll
+bash
+git add .nojekyll
+git commit -m "Disable Jekyll processing"
+git push origin main
